@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="input_name">Introduce tu nombre</string>
+    <string name="btn_greeting_text">Saludar</string>
+    <string name="saludo">Epale, %s</string>
+</resources>
