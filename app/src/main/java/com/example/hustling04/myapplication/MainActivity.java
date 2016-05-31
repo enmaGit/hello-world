@@ -32,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btnSaludar)
     public void mostrarSaludo() {
         if (editName.getText().toString().trim().length() > 0) {
+            EditText prueba = null;
             String saludo = editName.getText().toString().substring(0,1).toUpperCase() + editName.getText().toString().substring(1);
-            txtSaludo.setText(getString(R.string.saludo, saludo));
+            //txtSaludo.setText(getString(R.string.saludo, saludo));
+            txtSaludo.setText(prueba.getText());
 
         } else {
             Toast.makeText(MainActivity.this, "Por favor, introduce tu nombre", Toast.LENGTH_SHORT).show();
