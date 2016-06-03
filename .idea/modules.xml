@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-world.iml" filepath="$PROJECT_DIR$/hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-sails-io/java-sails-io.iml" filepath="$PROJECT_DIR$/java-sails-io/java-sails-io.iml" />
     </modules>
   </component>
 </project>
